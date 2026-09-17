@@ -1,0 +1,6 @@
+{
+  "name": "Open Media Transport Bridge & Control",
+  "description": "Linux network bridge and web control interface for Open Media Transport (OMT), SMPTE ST 2110 / ST 2022 streams, protocol conversion, and real-time media preview.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
