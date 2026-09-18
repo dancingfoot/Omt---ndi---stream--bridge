@@ -1,4 +1,4 @@
-export type StreamType = 'camera' | 'test-pattern' | 'omt';
+export type StreamType = 'camera' | 'test-pattern' | 'omt' | 'network-discovered';
 
 export type PatternType = 'smpte-bars' | 'ebu-bars' | 'gradient' | 'grid';
 
@@ -15,4 +15,7 @@ export interface StreamItem {
   patternType?: PatternType;
   description?: string;
   audioTone?: boolean;
+  ip?: string;
+  port?: number;
+  pingMs?: number;
 }
